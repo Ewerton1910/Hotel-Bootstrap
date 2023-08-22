@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+    /* font-family: Roboto, sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+    overflow-x: unset;
+}
+
+#logo-hotel {
+    width: 180px;
+    height: 50px;
+}
+
+
+.navbar {
+    background-color: #264459;
+}
+
+#cabecalho .nav .nav-link.active  {
+    background-color: #fff;
+    color: #DEAF7B;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-espacos .nav-link.active:hover {
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.carousel-item img {
+    width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-item #img3,
+.carousel-item #img1 {
+    object-position: 20% 80%;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    word-spacing: -3px;
+}
+
+
+
+#sobre-o-hotel, #espacos {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #DEAF7B;
+}
+
+.nav-espacos .nav-link.active,
+#fale-conosco button {
+    background-color: #264459;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav-espacos .nav-link {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav-espacos .nav-link:hover {
+    color: #DEAF7B;
+    
+}
+
+
+
+#espacos img {
+    height: 160px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none
+}
+
+#fale-conosco button:hover {
+    background-color: #264459;
+    transform: scale(1.01);
+}
+
+textarea {
+    resize: none;
+}
+
+.error {
+    color: rgb(213, 25, 25);
+}
+
+.form-control.error:focus {
+    border-color: #cb0909;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(190, 14, 14, 0.364);
+}
+
+
+
+
+
+footer {
+    background-color: #264459;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+@media ((max-width: 991px) and (max-width: 992px)) {
+    #espacos .container #list {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    aside.col-md-2.col-sm.mb-4 {
+        width: auto;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #espacos img {
+        height: auto;
+    }
+
+    #espacos .container #list {
+        display: block;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    
+}
+
+
+/* @media (min-width: 768px){
+    
+} */
+
+
+
